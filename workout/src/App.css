@@ -2,37 +2,87 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  width:500px;
+  height:500px;
+  background-color: #ccc;
+  border-radius:50%;
+  border:15px solid #dde;
+  position: relative;
+  overflow: hidden;
+  transition: 5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.container div{
+  height:50%;
+  width:200px;
+  position: absolute;
+  clip-path: polygon(100% 0 , 50% 100% , 0 0 );
+  transform:translateX(-50%);
+  transform-origin:bottom;
+  text-align:center;
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size:20px;
+  font-weight:bold;
+  font-family:sans-serif;
+  color:#fff;
+  left:135px;
 }
 
-.App-link {
-  color: #61dafb;
+.container .one{
+  background-color: #3f51b5;
+  left:50%;
+}
+.container .two{
+  background-color: #ff9800;
+  transform: rotate(72deg);
+}
+.container .three{
+  background-color: #e91e63;
+  transform:rotate(144deg);
+}
+.container .four{
+  background-color: #4caf50;
+  transform: rotate(207deg);
+}
+.container .five{
+  background-color: #009688;
+  transform: rotate(279deg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.arrow{
+  position: absolute;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  color:#100101;
+}
+
+.arrow::before{
+  content:"\1F817";
+  font-size:50px;
+}
+
+#spin{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:10;
+  background-color: #e2e2e2;
+  text-transform: uppercase;
+  border:8px solid #fff;
+  font-weight:bold;
+  font-size:20px;
+  color:#a2a2a2;
+  width: 80px;
+  height:80px;
+  font-family: sans-serif;
+  border-radius:50%;
+  cursor: pointer;
+  outline:none;
+  letter-spacing: 1px;
 }
