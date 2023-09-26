@@ -5,38 +5,38 @@ const NavBar = () => {
  return (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Let's Lift</a>
+    <a class="navbar-brand">Let's Lift</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Shoulders</a>
+          <a class="nav-link" href="shoulders">Shoulders</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Chest</a>
+          <a class="nav-link" href="chest">Chest</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Biceps</a>
+          <a class="nav-link" href="biceps">Biceps</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Triceps</a>
+          <a class="nav-link" href="triceps">Triceps</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Legs</a>
+          <a class="nav-link" href="legs">Legs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Abs</a>
+          <a class="nav-link" href="abs">Abs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cardio</a>
+          <a class="nav-link" href="cardio">Cardio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sleep</a>
+          <a class="nav-link" href="sleep">Sleep</a>
         </li>
       </ul>
     </div>
