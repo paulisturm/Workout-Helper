@@ -18,13 +18,16 @@ function Home () {
   <button id="spin">Spin</button>
   <span class="arrow"></span>
 <div class="container">
-  <div class="one">1</div>
-  <div class="two">2</div>
-  <div class="three">3</div>
-  <div class="four">4</div>
-  <div class="five">5</div>
-  
+  <div class="one">Shoulders</div>
+  <div class="two">Chest</div>
+  <div class="three">Biceps</div>
+  <div class="four">Triceps</div>
+  <div class="five">Legs</div>
+  <div class="six">Abs</div>
+  <div class="seven">Cardio</div>
+  <div class="eight">sleep</div>
 </div>
+
 
         </>
         
